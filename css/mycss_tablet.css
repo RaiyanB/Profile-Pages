@@ -1,0 +1,50 @@
+.highlight-box {
+    background-color: #e8eaf6;  
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+
+#profile-name {
+    font-size: 2.5em;
+    text-align: center;
+    animation: fadeInSmall 1.5s ease-in-out;
+}
+
+
+@keyframes fadeInSmall {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    section img {
+        width: 100%;
+        max-width: 300px; 
+        height: auto;
+    }
+}
